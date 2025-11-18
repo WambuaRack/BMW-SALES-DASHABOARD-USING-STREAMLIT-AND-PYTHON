@@ -1,4 +1,57 @@
 ### 📄 c:\Users\Administrator\Desktop\BMW data visualization\app.py
+*Saved at: 11/18/2025, 1:26:30 PM*
+
+**[REMOVED]**
+```
+(from line ~108)
+st.write("### 📊 Sales Analytics")
+
+```
+**[ADDED]**
+```
+108   st.write("#### Sales Analytics")
+```
+
+---
+
+### 📄 c:\Users\Administrator\Desktop\BMW data visualization\app.py
+*Saved at: 11/18/2025, 1:23:33 PM*
+
+**[REMOVED]**
+```
+(from line ~19)
+    .stApp {background-color: #f9f9f9;}
+
+```
+**[ADDED]**
+```
+19        .stApp {background-color: #140A6B;}
+```
+
+---
+
+### 📄 c:\Users\Administrator\Desktop\BMW data visualization\app.py
+*Saved at: 11/18/2025, 1:20:10 PM*
+
+**[REMOVED]**
+```
+(from line ~153)
+# Row 5: Scatter Analysis
+c9, c10 = st.columns(2)
+with c9:
+    fig9 = px.scatter(filtered, x="Mileage_KM", y="Price_USD", color="Fuel_Type", size="Engine_Size_L",
+                      hover_data=["Model", "Year", "Region"], title="Price vs Mileage")
+    st.plotly_chart(fig9, use_container_width=True)
+with c10:
+    fig10 = px.scatter(filtered, x="Price_USD", y="Sales_Volume", color="Region", size="Engine_Size_L",
+                       hover_data=["Model"], title="Sales Volume vs Price")
+    st.plotly_chart(fig10, use_container_width=True)
+
+```
+
+---
+
+### 📄 c:\Users\Administrator\Desktop\BMW data visualization\app.py
 *Saved at: 11/18/2025, 1:09:58 PM*
 
 **[REMOVED]**
